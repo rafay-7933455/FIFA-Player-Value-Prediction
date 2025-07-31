@@ -23,4 +23,4 @@ con = duckdb.connect()
 df = con.query(f'select * from players where (country in {country}) and (value <= {budget}) and (age <= {age}) and (height >= {height})').df()
 
 st.subheader('Players You Needed to See:')
-st.dataframe(df)#.iloc[:10, :])
+st.dataframe(df)

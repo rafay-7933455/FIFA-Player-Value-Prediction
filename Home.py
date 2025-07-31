@@ -15,7 +15,6 @@ with c:
 
 c1, c2, c3 = st.columns([1, 1,1])
 
-st.sidebar.title('Options Menu')
 with c1:
      show("images/messi.jpg", 400,600, "The Magician")
 with c2:
