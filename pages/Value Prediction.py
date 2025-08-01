@@ -83,7 +83,7 @@ with st.form("player_input_form"):
         )
 
     # Select club and encode
-    selected_club = st.multiselect("Select Club", club_options)
+    selected_club = st.selectbox("Select Club", club_options)
 
     submitted = st.form_submit_button("Predict", use_container_width=True)
 
